@@ -1,8 +1,8 @@
 #include <iostream>
 
 int main(){
-    char* name;//переменная для имени
+    char* username;//переменная для имени
     std::cout << "Enter your name\n";
-    std::cin << name;//записывает имя пользователя
+    std::cin << username;//записывает имя пользователя
     std::cout << "Hello world " << username << std::endl;
 }
