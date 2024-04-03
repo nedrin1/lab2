@@ -1,8 +1,8 @@
 #include <iostream>
 
 int main(){
-    char* username;
-    std::cout << "Enter user name\n";
-    std::cin << username;
-    std::cout << "Hello world from " << username << std::endl;
+    char* name;
+    std::cout << "Enter your name\n";
+    std::cin << name;
+    std::cout << "Hello world " << username << std::endl;
 }
